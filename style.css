@@ -1,9 +1,10 @@
+/* Default styles for calculator */
 #calculator {
     width: 310px;
     margin: 0 auto;
     margin-top: 100px;
     text-align: center;
-	border: 5px solid black;
+    border: 5px solid black;
 }
 
 #display-container {
@@ -33,15 +34,37 @@
     background-color: #1976D2;
 }
 
-.op{
-	background-color:#f0b14b;
+.op {
+    background-color: #f0b14b;
 }
 
-span{
-	display: inline-block;
-	margin-top:22%;
+span {
+    display: inline-block;
+    margin-top: 22%;
 }
 
 .block {
     display: inline-block;
 }
+
+/* Responsive styles for Samsung screens */
+@media screen and (max-width: 500px) {
+    #calculator {
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+
+    .button {
+        width: 100px; /* Increase the width */
+        height: 100px; /* Increase the height */
+        font-size: 24px;
+        margin: 5px;
+    }
+
+    span {
+        margin-top: 10%;
+    }
+}
+
+

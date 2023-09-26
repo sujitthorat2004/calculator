@@ -49,6 +49,10 @@ span {
 
 /* Responsive styles for Samsung screens */
 @media screen and (max-width: 500px) {
+    body {
+        zoom: 0.8; /* Adjust the zoom level as needed */
+    }
+    
     #calculator {
         width: 100%;
         margin: 0 auto;
@@ -66,5 +70,6 @@ span {
         margin-top: 10%;
     }
 }
+
 
 
